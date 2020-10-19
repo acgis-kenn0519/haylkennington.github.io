@@ -28,7 +28,7 @@ ul {
 li {
   float: left;
 }
-li a { 
+a { 
   display: block;
   color: white;
   text-decoration: none;
@@ -55,28 +55,41 @@ section {
   box-sizing: border-box;
 }
 
+.boxL {
+  float: left;
+  width: 70%;
+  padding: 50px;
+}
+.boxR {
+  float: left;
+  width: 30%;
+  padding: 50px;
+}
+
 </style>
 </head>
 <body> 
   
-<header>Hayley Kennington</header>
+<header><a href="../index.html">Hayley Kennington</a></header>
 
 <ul> 
-  <li><a href="../photographs.htm" target="_blank">Photographs</a></li>
-  <li><a href="../paintings.htm" target="_blank">Paintings</a></li>
-  <li><a href="../info.htm" target="_blank">More Information</a></li>
+  <li><a href="../photographs.htm">Photographs</a></li>
+  <li><a href="../paintings.htm">Paintings</a></li>
+  <li><a href="../info.htm">More Information</a></li>
 </ul>
 
 <section>About me</section>
 <hr>
-<p>In the spring of 2020, I graduated from the Ecosystem Management Technician program at Fleming College. Continuing my education at Fleming College, I am currently enrolled in the 
+<div class="boxL">In the spring of 2020, I graduated from the Ecosystem Technician program at Fleming College. Continuing my education at Fleming College, I am currently enrolled in the 
   Cartographic Specialist stream of the Geographic Information Systems (GIS) program. I have a passion for both forest and wetland 
   conservation as well as sustainable living practices. My hobbies include nature photography and landscape painting. I hope to bring my creativity and knowledge of colour theory
-  into my map design throughout my time in the GIS program at Fleming College. 
+  into my map design throughout my time in the GIS program at Fleming College. </div>
 
-<p>I currently live in Ottawa, Ontario. </p>
+<div class="boxL">I currently live in Ottawa, Ontario. </div>
 
-</p>
+<div class="boxR"
+<img src="photos/butterlfy.jpg" alt="Butterfly eating from a thistle" style="width:500px;height:600px;">
+</div>
 <hr>
  
 </body>
