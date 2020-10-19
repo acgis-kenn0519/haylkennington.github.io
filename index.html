@@ -17,27 +17,36 @@ header {
   color: white;
 }
 
-/*nav bar and links*/
-nav {
+/*nav bar*/
+ul {
+  list-style-type: none;
   background-color: rgb(197, 192, 185);
-  padding:8px;
-  text-align: center;
+  padding:0;
+  overflow: hidden;
   font-size: 16px;
 }
-
-a { 
-  color: white;
-  text-decoration: none
+li {
+  float: left;
 }
-  
+li a { 
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: centre;
+  padding: 12px 14px;
+}
+
+li a:hover {
+  background-color: rgb(185, 181, 174);
+}
+
 /*section titles*/
 section {
-  -webkit-flex: 4;
-  flex: 4;
-  background-color: rgb(230, 230, 230);
   padding:5px;
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
   text-align: left;
-  font-size: 14px;
+  font-size: 18px;
   color: black;
 }
 
@@ -52,13 +61,14 @@ section {
   
 <header>Hayley Kennington</header>
 
-<nav> 
-  <a href="../photographs.htm">Photographs</a>
-  <a href="../paintings.htm">Paintings</a>
-  <a href="../info.htm">More Information</a>
-</nav>
-<hr>
+<ul> 
+  <li><a href="../photographs.htm">Photographs</a></li>
+  <li><a href="../paintings.htm">Paintings</a></li>
+  <li><a href="../info.htm">More Information</a></li>
+
+</ul>
 <section>About me</section>
+<hr>
 <p>In the spring of 2020, I graduated from the Ecosystem Technician program at Fleming College. Continuing my education at Fleming College, I am currently enrolled in the 
   Cartographic Specialist stream of the Geographic Information Systems (GIS) program. I have a passion for both forest and wetland 
   conservation as well as sustainable living practices. My hobbies include nature photography and landscape painting. I hope to bring my creativity and knowledge of colour theory
