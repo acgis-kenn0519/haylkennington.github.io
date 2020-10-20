@@ -1,5 +1,5 @@
-<!DOCTYPE CSS>
-/*auto-formatting for all text within the body*/
+/*CSS for GEOM101 Assignment 2*/
+/*formatting for all text within the body*/
   body {
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -8,14 +8,18 @@
 /*header style*/
 header {
   background-color: #385c41;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   font-family: 'Century Gothic', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
 }
+header a {
+  color: white;
+  text-decoration: none;
+}
 
-/*nav bar*/
+/*nav bar & links style*/
 ul {
   list-style-type: none;
   background-color: rgb(197, 192, 185);
@@ -30,7 +34,7 @@ li a {
   display: block;
   color: white;
   text-decoration: none;
-  text-align: centre;
+  text-align: center;
   padding: 12px 14px;
 }
 
@@ -40,15 +44,20 @@ li a:hover {
 
 /*section titles*/
 section {
-  padding:5px;
   font-family: 'Century Gothic', sans-serif;
   font-weight: bold;
   text-align: left;
-  font-size: 18px;
   color: black;
 }
-
-/*responsive grid*/
-*{
-  box-sizing: border-box;
+h3{
+  margin-bottom: 0;
+}
+/*Image float*/
+img {
+  float: right;
+}
+  
+/*In paragraph links*/
+a {
+  color: black;
 }
