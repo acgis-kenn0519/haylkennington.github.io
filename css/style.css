@@ -56,6 +56,11 @@ h3{
 .img1 {
   float: right;
 }
+
+/*Image margins*/
+img {
+  margin: 5px
+}
   
 /*In paragraph links*/
 a {
